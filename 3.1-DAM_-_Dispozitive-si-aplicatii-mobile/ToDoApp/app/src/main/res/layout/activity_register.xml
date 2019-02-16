@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/registerUserEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/user"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/repeatPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/repeat_pass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_margin_top"
+        android:onClick="RegisterUser"
+        android:text="@string/register" />
+</LinearLayout>

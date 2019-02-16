@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="user">User</string>
+    <string name="pass">Password</string>
+    <string name="repeat_pass">Repeat password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="add_task">Add Task</string>
+    <string name="tasks_list">Tasks List</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Due date (yyyy-MM-dd)</string>
+    <string name="priority">Priority</string>
+    <string name="login_error">Please input an username and a password at least 5 characters long</string>
+    <string name="incorrect_login">Wrong username and password</string>
+    <string name="add_to_calendar">Add task to calendar also</string>
+</resources>

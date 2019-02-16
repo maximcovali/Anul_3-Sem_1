@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoogleBooksAPI_Test</string>
+    <string name="instructions">Enter a book name</string>
+    <string name="button_text">Search books</string>
+    <string name="input_hint">Enter a book Title</string>
+    <string name="loading">Loading...</string>
+</resources>
