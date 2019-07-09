@@ -21,6 +21,8 @@ Toast.makeText(MainActivity.this, R.string.button, Toast.LENGTH_SHORT).show();
 - [x] instalare PyCharm: https://www.jetbrains.com/pycharm/download/#section=mac
 - [x] instalare python: https://www.python.org/downloads/
 - [x] adaugare pachete in File > Settings > Project > Project Interpreter >click pe + > caut pachetul > click pe install
+![alt text](images/img.png)
+
 ￼
 - [x] Instalare plugin pentru .csv
 - [ ] de verificat cum rulez aplicatia
